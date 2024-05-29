@@ -1,0 +1,49 @@
+@media (max-width: 640px) {
+  .custom-Rectangle {
+    display: none;
+  }
+}
+
+.land {
+  padding: 2rem;
+  .icons-container {
+    position: relative;
+    z-index: 10;
+  }
+}
+
+.cal {
+  position: relative;
+
+  .cal-icon {
+    position: absolute;
+  }
+}
+.land-section {
+  padding: 1rem;
+  h2 {
+    text-align: center;
+    padding: 1.7rem;
+  }
+
+  .icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 1rem;
+  }
+
+  .icon {
+    text-align: center;
+  }
+
+  .icon img {
+    width: 50px; /* Adjust size as needed */
+    margin-bottom: 1rem;
+  }
+
+  .icon p {
+    font-size: 1.1rem;
+    color: #666; /* Adjust as needed */
+  }
+}

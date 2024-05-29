@@ -1,0 +1,30 @@
+.services{
+
+    .card-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            // margin-left: auto;
+            // margin-right: auto;
+        .cards{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 1rem;
+ padding: 0.5rem;
+           .cardImg-container img{
+            width: 250px;
+           }
+
+            .text-card{
+                color: var(--primary-color);
+            }
+        }
+    }
+    p {
+        text-align: center;
+        margin-top: 10px;
+    }
+}

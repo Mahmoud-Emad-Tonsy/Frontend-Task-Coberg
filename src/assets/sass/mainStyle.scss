@@ -1,0 +1,13 @@
+@import '_variables';
+@import '_globel';
+@import '_responsive';
+
+//layout
+@import './layout/_header.scss';
+@import './layout/_footer.scss';
+@import './layout/_section.scss';
+//components
+@import './components/_banner';
+@import './components/_land';
+@import './components/_services';
+@import './components/_blog';

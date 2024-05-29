@@ -1,0 +1,134 @@
+@media (max-width: 640px) {
+ 
+  .left{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+ .contact-info-left{
+  text-align: center;
+ }
+  .center,
+.right,
+.text-left-footer
+   {
+    display: none !important;
+  }
+}
+@media (min-width: 641px) {
+ 
+ .contact-info-left{
+
+display: none !important;
+
+}
+
+}
+@media (max-width: 640px) {
+ 
+  .left{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+ .contact-info-left{
+  text-align: center;
+ }
+  .center,
+.right,
+.text-left-footer
+   {
+    display: none !important;
+  }
+}
+@media (max-width: 1075px) {
+.nav-footer {
+  display: none !important;
+}
+
+}
+
+.footer {
+  background-color: #f8f8f8;
+  width: 100%;
+  height: 100%;
+  height: 250px;
+  display: flex;
+  // padding: 1rem;
+
+  .left {
+    width: 100%;
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 6px;
+
+    .text-left-footer {
+      font-size: 0.7rem;
+  
+    }
+
+    .social {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .social img {
+      width: 22px;
+    }
+  }
+  .center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    h6 {
+      text-transform: uppercase;
+    }
+    .servies-footer {
+      margin-top: 1rem;
+    }
+    .servies-footer p {
+      font-size: 0.8rem;
+      margin-bottom: 8px;
+      text-align: center;
+    }
+  }
+  .right {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 18px;
+    gap: 9px;
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      font-size: 0.8rem;
+    }
+    h6 {
+      text-align: center;
+      text-transform: capitalize;
+    }
+    .nav-footer {
+      margin-top: 1rem;
+      ul {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+      }
+      ul li {
+        list-style: none;
+        font-family: Poppins;
+      }
+    }
+  }
+}
