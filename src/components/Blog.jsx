@@ -5,33 +5,34 @@ import blogsCard_1 from "../assets/images/blogs-card-1.png";
 import blogsCard_2 from "../assets/images/blogs-card-2.png";
 import blogsCard_3 from "../assets/images/blogs-card-3.png";
 import blogsCard_4 from "../assets/images/blogs-card-4.png";
+import blogsCard_5 from "../assets/images/card-5.jpg";
 import CustomArrow from "../shared/CustomArrow";
 import '../assets/sass/shared/_button.scss'
 const Blog = () => {
   const cardDataBlogs = [
     {
-      title: "Modular Kitchen",
+      title: "Modern Interior",
       image: blogsCard_1,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
-      title: "Bedroom",
+      title: "Exterior Project",
       image: blogsCard_2,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
-      title: "Living room",
+      title: "Grey Beauty",
       image: blogsCard_3,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
-      title: "Home office",
+      title: "Plantation interior",
       image: blogsCard_4,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
     {
-      title: "Home office",
-      image: blogsCard_4,
+      title: "Role of furnitures",
+      image: blogsCard_5,
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     },
   ];
